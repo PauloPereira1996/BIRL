@@ -1,0 +1,59 @@
+OH O HOME AI PO (TRAPEZIO  SOMAR(TRAPEZIO  A, TRAPEZIO  B))
+    BORA CUMPADE (A+B);
+BIRL 
+
+OH O HOME AI PO (TRAPEZIO  SUBTRACAO(TRAPEZIO  A, TRAPEZIO  B))
+    BORA CUMPADE (A-B);
+BIRL 
+
+OH O HOME AI PO (TRAPEZIO  MULTIPLICAR(TRAPEZIO  A, TRAPEZIO  B))
+    BORA CUMPADE (A*B);
+BIRL 
+
+OH O HOME AI PO (TRAPEZIO  DIVIDIR(TRAPEZIO  A, TRAPEZIO  B))
+    BORA CUMPADE (A/B);
+BIRL 
+
+HORA DO SHOW
+    FRANGO oper = ' ';
+    TRAPEZIO n1 = 0.0, n2 = 0.0, res = 0.0;
+    
+    CE QUER VER ESSA PORRA? ("Calculadora Simples\n");
+    
+    CE QUER VER ESSA PORRA? ("\tOperacao \t Descricao \n");
+    CE QUER VER ESSA PORRA? ("\t\t + \t\t Soma \n");
+    CE QUER VER ESSA PORRA? ("\t\t - \t\t Subtracao \n");
+    CE QUER VER ESSA PORRA? ("\t\t * \t\t Multiplicacao \n");
+    CE QUER VER ESSA PORRA? ("\t\t / \t\t Divisao \n");
+    
+    
+    CE QUER VER ESSA PORRA? ("\n Digite a operacao que deseja fazer: ");
+    QUE QUE CE QUER MONSTRAO? ("%c", &oper);
+    
+    CE QUER VER ESSA PORRA? ("\n Digite os numeros da operacao: ");
+    QUE QUE CE QUER MONSTRAO? ("%f %f", &n1, &n2);
+    
+    CE QUER VER ESSA PORRA? ("\n Numeros: %f, %f", n1, n2);
+    
+    ELE QUE A GENTE QUER? (oper == '+')
+        res = AJUDA O MALUCO TA DOENTE SOMAR(n1, n2);
+        CE QUER VER ESSA PORRA? ("\n O resultado da soma eh: %f", res);
+        
+    QUE NAO VAI DAR O QUE? (oper == '-')
+        res = AJUDA O MALUCO TA DOENTE SUBTRACAO(n1, n2);
+        CE QUER VER ESSA PORRA? ("\n O resultado da subtracao eh: %f", res);
+        
+    QUE NAO VAI DAR O QUE? (oper == '*')
+        res = AJUDA O MALUCO TA DOENTE MULTIPLICAR(n1, n2);
+        CE QUER VER ESSA PORRA? ("\n O resultado da multiplicao eh: %f", res);
+        
+    QUE NAO VAI DAR O QUE? (oper == '/')
+        res = AJUDA O MALUCO TA DOENTE DIVIDIR(n1, n2);
+        CE QUER VER ESSA PORRA? ("\n O resultado da divisao eh: %f", res);
+        
+    NAO VAI DAR NAO
+        CE QUER VER ESSA PORRA? ("\n Treina mais mutante, o poder está fraco em você.");
+    BIRL
+    
+    BORA CUMPADE 0;
+BIRL
